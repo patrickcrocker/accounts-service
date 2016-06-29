@@ -9,7 +9,7 @@ image_resource:
 
 inputs:
 - name: accounts-service
-- name: version
+- name: accounts-version
 
 outputs:
 - name: build

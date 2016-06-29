@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=`cat version/number`
+VERSION=`cat accounts-version/number`
 
 pushd accounts-service
   ./gradlew -PversionNumber=$VERSION clean assemble
