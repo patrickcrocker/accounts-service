@@ -8,7 +8,7 @@ image_resource:
     tag: '8'
 
 inputs:
-- name: accounts
+- name: accounts-service
 - name: version
 
 outputs:
@@ -18,4 +18,4 @@ params:
   TERM: dumb
 
 run:
-  path: accounts/ci/build.sh
+  path: accounts-service/ci/build.sh
