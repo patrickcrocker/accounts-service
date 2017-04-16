@@ -13,7 +13,7 @@
 
   <groupId>io.pivotal.bank</groupId>
   <artifactId>accounts</artifactId>
-  <version>0.4.0</version>
+  <version>${revision}</version>
 
   <name>Accounts Service</name>
 
@@ -21,6 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<revision>1.0.0-SNAPSHOT</revision>
 	</properties>
 
   <build>
@@ -63,7 +64,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
